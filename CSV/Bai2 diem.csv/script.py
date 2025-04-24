@@ -11,3 +11,4 @@ with open('diem.csv', mode='r', encoding='utf-8') as file:
         hoa = float(row[3])
         dtb = (toan + ly + hoa) / 3
         print(f"{ten} - ĐTB: {dtb:.2f}")
+    file.close()
